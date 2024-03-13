@@ -1,0 +1,1 @@
+0 19 * * * /usr/sbin/logrotate -s ${LOGROTATE_STATE:-/var/lib/logrotate.state} ${LOGROTATE_CONF:-/etc/logrotate.conf}
