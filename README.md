@@ -3,6 +3,12 @@
 This is an Alpine Linux image consisting only of cron and logrotate,
 which is used for periodic log file rotation in a container cluster.
 
+## Setup
+
+```sh
+docker pull ghcr.io/uenob/cron-logrotate
+```
+
 ## Usage
 
 1. Mount a volume containing log files to `/var/log`.
